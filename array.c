@@ -1,12 +1,11 @@
 #include <stdio.h>
-#include <stdbool.h>
 #define SIZE 4
 int top =-1;
 int stack[SIZE]; // stack[4]
 void push();
 int main () {
 
-    while(true){
+    while(1){
         int choice;
         printf("choice your operations.\n");
         printf("1.push element:\n 2.pop element:\n 3.show the element:\n 4.peek the element:\n 5.exit:\n");
@@ -32,5 +31,5 @@ void push() {
         stack[top] = item;
 
     }
-  
+   
 }
